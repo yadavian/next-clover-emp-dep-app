@@ -80,8 +80,8 @@ const Sidenav = () => {
           <div className="sidebar-links">
             {menuToRendered?.map((d, i) => {
               return (
-                <Link href={d.pathname}>
-                  <div className={d.className}>
+                <Link  key={i} href={d.pathname}>
+                  <div  key={i} className={d.className}>
                     <p style={{ textTransform: "capitalize" }}>{d.title}</p>
                   </div>
                 </Link>

@@ -16,7 +16,6 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 export default function DrawerComponent() {
-
   const location = useRouter();
   const [state, setState] = React.useState({
     top: false,
@@ -53,7 +52,11 @@ export default function DrawerComponent() {
       pathname: "",
       sublist: [
         { id: 1, title: "Dashboard", pathname: "/department" },
-        { id: 1, title: "Add Department", pathname: "/department/add-department" },
+        {
+          id: 1,
+          title: "Add Department",
+          pathname: "/department/add-department",
+        },
       ],
     },
   ];
@@ -93,7 +96,7 @@ export default function DrawerComponent() {
 
               {lists?.map((list, i) => {
                 return (
-                  <div className="mobile-drawer-list">
+                  <div className="mobile-drawer-list" key={i}>
                     <>
                       <div className="mobile-drawer-list-title">
                         <Link href="">{list.title}</Link>
@@ -103,6 +106,7 @@ export default function DrawerComponent() {
                           return (
                             <>
                               <div
+                                key={i}
                                 className="mobile-drawer-list-item"
                                 style={{
                                   borderLeft: `${

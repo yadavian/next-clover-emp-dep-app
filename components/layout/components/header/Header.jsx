@@ -71,8 +71,12 @@ const Header = () => {
         <div className="navbar-right-box">
           {menuToRendered?.map((d, i) => {
             return (
-              <Link href={d.pathname}>
-                <div  className={d.className} onClick={() => dispatch(setActiveUserType(d.userType))}>
+              <Link href={d.pathname} key={i}>
+                <div
+                  key={i}
+                  className={d.className}
+                  onClick={() => dispatch(setActiveUserType(d.userType))}
+                >
                   {d.title}
                 </div>
               </Link>
