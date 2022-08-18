@@ -1,0 +1,95 @@
+{
+  "employees": [
+    {
+      "empName": "ankit",
+      "empDesignation": "Software Engineer",
+      "empSalary": "2000",
+      "deptName": "Purchase Department",
+      "id": 1
+    },
+    {
+      "empName": "suraj",
+      "empDesignation": "Software Engineer",
+      "empSalary": "5000",
+      "deptName": "Information Technology",
+      "id": 2
+    }
+  ],
+  "department": [
+    {
+      "deptName": "Purchase Department",
+      "deptAddress": "Mumbai",
+      "id": 1
+    },
+    {
+      "0": {
+        "deptName": "Purchase Department",
+        "deptAddress": "Mumbai",
+        "id": 1
+      },
+      "deptName": "Human Resources ",
+      "deptAddress": "Navi Mumbai",
+      "id": 2
+    },
+    {
+      "0": {
+        "deptName": "Purchase Department",
+        "deptAddress": "Mumbai",
+        "id": 1
+      },
+      "1": {
+        "0": {
+          "deptName": "Purchase Department",
+          "deptAddress": "Mumbai",
+          "id": 1
+        },
+        "deptName": "Human Resources ",
+        "deptAddress": "Navi Mumbai",
+        "id": 2
+      },
+      "deptName": "Information Technology",
+      "deptAddress": "Navi Mumbai",
+      "id": 3
+    },
+    {
+      "0": {
+        "deptName": "Purchase Department",
+        "deptAddress": "Mumbai",
+        "id": 1
+      },
+      "1": {
+        "0": {
+          "deptName": "Purchase Department",
+          "deptAddress": "Mumbai",
+          "id": 1
+        },
+        "deptName": "Human Resources ",
+        "deptAddress": "Navi Mumbai",
+        "id": 2
+      },
+      "2": {
+        "0": {
+          "deptName": "Purchase Department",
+          "deptAddress": "Mumbai",
+          "id": 1
+        },
+        "1": {
+          "0": {
+            "deptName": "Purchase Department",
+            "deptAddress": "Mumbai",
+            "id": 1
+          },
+          "deptName": "Human Resources ",
+          "deptAddress": "Navi Mumbai",
+          "id": 2
+        },
+        "deptName": "Information Technology",
+        "deptAddress": "Navi Mumbai",
+        "id": 3
+      },
+      "deptName": "Accounting Department",
+      "deptAddress": "Mumbai",
+      "id": 4
+    }
+  ]
+}

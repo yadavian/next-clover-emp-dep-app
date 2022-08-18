@@ -1,0 +1,30 @@
+.layout-page {
+    min-height: 100vh;
+    display: flex;
+}
+
+.layout-right-section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.layout-middle-section {
+    min-height: 100vh;
+    background-color: white;
+    margin: 10% 5% 0% 5%;
+}
+
+
+
+/* // Mobile */
+@media screen and (max-width: 600px) {
+
+    .layout-middle-section {
+        margin: 20% 5% 0% 5%;
+    }
+}
+
+/* //Desktop */
+@media screen and (min-width: 600px) {}
