@@ -393,12 +393,12 @@ export default function MuiTable(props) {
                                 justifyContent: "center",
                               }}
                             >
-                              <Link href={`/add-employee/${row.id}`}>
+                              <Link href={`/employee/${row.id}`}>
                                 <div className="edit-icon">
                                   <ModeEditOutlineIcon />
                                 </div>
                               </Link>
-                              {/* <Link href="/add-employee"> */}
+                              {/* <Link href="/employee"> */}
                               <div
                                 className="delete-icon"
                                 onClick={() => {
@@ -450,12 +450,12 @@ export default function MuiTable(props) {
                                 justifyContent: "center",
                               }}
                             >
-                              <Link href={`/add-department/${row.id}`}>
+                              <Link href={`/department/${row.id}`}>
                                 <div className="edit-icon">
                                   <ModeEditOutlineIcon />
                                 </div>
                               </Link>
-                              {/* <Link href="/add-employee"> */}
+                              {/* <Link href="/employee"> */}
                               <div
                                 className="delete-icon"
                                 onClick={() => {

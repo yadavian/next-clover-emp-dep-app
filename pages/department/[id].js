@@ -12,10 +12,12 @@ import Layout from "../../components/layout/Layout";
 import { departmentCity } from "../../data/employeeData";
 
 const AddDepartment = () => {
-  // const { id } = useParams();
-  const id = "";
+  // const { id } = useParams(); 
   const dispatch = useDispatch();
   const navigate = useRouter();
+  console.log("navigate =>", navigate);
+  const { id } = navigate.query
+
 
   const [formErrors, setFormErrors] = useState({});
   const [department, setDepartment] = useState({

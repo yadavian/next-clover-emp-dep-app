@@ -1,56 +1,28 @@
 {
   "employees": [
     {
-      "empName": "ankit",
+      "empName": "ankit dav",
       "empDesignation": "Software Engineer",
       "empSalary": "2000",
-      "deptName": "Purchase Department",
+      "deptName": "Accounting Department",
       "id": 1
     },
     {
       "empName": "suraj",
-      "empDesignation": "Software Engineer",
+      "empDesignation": "Software Tester",
       "empSalary": "5000",
-      "deptName": "Information Technology",
+      "deptName": "Accounting Department",
       "id": 2
+    },
+    {
+      "empName": "deepika",
+      "empDesignation": "IT Engineer",
+      "empSalary": "5200",
+      "deptName": "Information Technology",
+      "id": 3
     }
   ],
   "department": [
-    {
-      "deptName": "Purchase Department",
-      "deptAddress": "Mumbai",
-      "id": 1
-    },
-    {
-      "0": {
-        "deptName": "Purchase Department",
-        "deptAddress": "Mumbai",
-        "id": 1
-      },
-      "deptName": "Human Resources ",
-      "deptAddress": "Navi Mumbai",
-      "id": 2
-    },
-    {
-      "0": {
-        "deptName": "Purchase Department",
-        "deptAddress": "Mumbai",
-        "id": 1
-      },
-      "1": {
-        "0": {
-          "deptName": "Purchase Department",
-          "deptAddress": "Mumbai",
-          "id": 1
-        },
-        "deptName": "Human Resources ",
-        "deptAddress": "Navi Mumbai",
-        "id": 2
-      },
-      "deptName": "Information Technology",
-      "deptAddress": "Navi Mumbai",
-      "id": 3
-    },
     {
       "0": {
         "deptName": "Purchase Department",
@@ -88,8 +60,323 @@
         "id": 3
       },
       "deptName": "Accounting Department",
-      "deptAddress": "Mumbai",
+      "deptAddress": "Banglore",
       "id": 4
+    },
+    {
+      "0": {
+        "0": {
+          "deptName": "Purchase Department",
+          "deptAddress": "Mumbai",
+          "id": 1
+        },
+        "1": {
+          "0": {
+            "deptName": "Purchase Department",
+            "deptAddress": "Mumbai",
+            "id": 1
+          },
+          "deptName": "Human Resources ",
+          "deptAddress": "Navi Mumbai",
+          "id": 2
+        },
+        "2": {
+          "0": {
+            "deptName": "Purchase Department",
+            "deptAddress": "Mumbai",
+            "id": 1
+          },
+          "1": {
+            "0": {
+              "deptName": "Purchase Department",
+              "deptAddress": "Mumbai",
+              "id": 1
+            },
+            "deptName": "Human Resources ",
+            "deptAddress": "Navi Mumbai",
+            "id": 2
+          },
+          "deptName": "Information Technology",
+          "deptAddress": "Navi Mumbai",
+          "id": 3
+        },
+        "deptName": "Accounting Department",
+        "deptAddress": "Banglore",
+        "id": 4
+      },
+      "deptAddress": "Navi Mumbai",
+      "deptName": "Purchase Department",
+      "id": 5
+    },
+    {
+      "0": {
+        "0": {
+          "deptName": "Purchase Department",
+          "deptAddress": "Mumbai",
+          "id": 1
+        },
+        "1": {
+          "0": {
+            "deptName": "Purchase Department",
+            "deptAddress": "Mumbai",
+            "id": 1
+          },
+          "deptName": "Human Resources ",
+          "deptAddress": "Navi Mumbai",
+          "id": 2
+        },
+        "2": {
+          "0": {
+            "deptName": "Purchase Department",
+            "deptAddress": "Mumbai",
+            "id": 1
+          },
+          "1": {
+            "0": {
+              "deptName": "Purchase Department",
+              "deptAddress": "Mumbai",
+              "id": 1
+            },
+            "deptName": "Human Resources ",
+            "deptAddress": "Navi Mumbai",
+            "id": 2
+          },
+          "deptName": "Information Technology",
+          "deptAddress": "Navi Mumbai",
+          "id": 3
+        },
+        "deptName": "Accounting Department",
+        "deptAddress": "Banglore",
+        "id": 4
+      },
+      "1": {
+        "0": {
+          "0": {
+            "deptName": "Purchase Department",
+            "deptAddress": "Mumbai",
+            "id": 1
+          },
+          "1": {
+            "0": {
+              "deptName": "Purchase Department",
+              "deptAddress": "Mumbai",
+              "id": 1
+            },
+            "deptName": "Human Resources ",
+            "deptAddress": "Navi Mumbai",
+            "id": 2
+          },
+          "2": {
+            "0": {
+              "deptName": "Purchase Department",
+              "deptAddress": "Mumbai",
+              "id": 1
+            },
+            "1": {
+              "0": {
+                "deptName": "Purchase Department",
+                "deptAddress": "Mumbai",
+                "id": 1
+              },
+              "deptName": "Human Resources ",
+              "deptAddress": "Navi Mumbai",
+              "id": 2
+            },
+            "deptName": "Information Technology",
+            "deptAddress": "Navi Mumbai",
+            "id": 3
+          },
+          "deptName": "Accounting Department",
+          "deptAddress": "Banglore",
+          "id": 4
+        },
+        "deptAddress": "Navi Mumbai",
+        "deptName": "Purchase Department",
+        "id": 5
+      },
+      "deptAddress": "Banglore",
+      "deptName": "Human Resources ",
+      "id": 6
+    },
+    {
+      "0": {
+        "0": {
+          "deptName": "Purchase Department",
+          "deptAddress": "Mumbai",
+          "id": 1
+        },
+        "1": {
+          "0": {
+            "deptName": "Purchase Department",
+            "deptAddress": "Mumbai",
+            "id": 1
+          },
+          "deptName": "Human Resources ",
+          "deptAddress": "Navi Mumbai",
+          "id": 2
+        },
+        "2": {
+          "0": {
+            "deptName": "Purchase Department",
+            "deptAddress": "Mumbai",
+            "id": 1
+          },
+          "1": {
+            "0": {
+              "deptName": "Purchase Department",
+              "deptAddress": "Mumbai",
+              "id": 1
+            },
+            "deptName": "Human Resources ",
+            "deptAddress": "Navi Mumbai",
+            "id": 2
+          },
+          "deptName": "Information Technology",
+          "deptAddress": "Navi Mumbai",
+          "id": 3
+        },
+        "deptName": "Accounting Department",
+        "deptAddress": "Banglore",
+        "id": 4
+      },
+      "1": {
+        "0": {
+          "0": {
+            "deptName": "Purchase Department",
+            "deptAddress": "Mumbai",
+            "id": 1
+          },
+          "1": {
+            "0": {
+              "deptName": "Purchase Department",
+              "deptAddress": "Mumbai",
+              "id": 1
+            },
+            "deptName": "Human Resources ",
+            "deptAddress": "Navi Mumbai",
+            "id": 2
+          },
+          "2": {
+            "0": {
+              "deptName": "Purchase Department",
+              "deptAddress": "Mumbai",
+              "id": 1
+            },
+            "1": {
+              "0": {
+                "deptName": "Purchase Department",
+                "deptAddress": "Mumbai",
+                "id": 1
+              },
+              "deptName": "Human Resources ",
+              "deptAddress": "Navi Mumbai",
+              "id": 2
+            },
+            "deptName": "Information Technology",
+            "deptAddress": "Navi Mumbai",
+            "id": 3
+          },
+          "deptName": "Accounting Department",
+          "deptAddress": "Banglore",
+          "id": 4
+        },
+        "deptAddress": "Navi Mumbai",
+        "deptName": "Purchase Department",
+        "id": 5
+      },
+      "2": {
+        "0": {
+          "0": {
+            "deptName": "Purchase Department",
+            "deptAddress": "Mumbai",
+            "id": 1
+          },
+          "1": {
+            "0": {
+              "deptName": "Purchase Department",
+              "deptAddress": "Mumbai",
+              "id": 1
+            },
+            "deptName": "Human Resources ",
+            "deptAddress": "Navi Mumbai",
+            "id": 2
+          },
+          "2": {
+            "0": {
+              "deptName": "Purchase Department",
+              "deptAddress": "Mumbai",
+              "id": 1
+            },
+            "1": {
+              "0": {
+                "deptName": "Purchase Department",
+                "deptAddress": "Mumbai",
+                "id": 1
+              },
+              "deptName": "Human Resources ",
+              "deptAddress": "Navi Mumbai",
+              "id": 2
+            },
+            "deptName": "Information Technology",
+            "deptAddress": "Navi Mumbai",
+            "id": 3
+          },
+          "deptName": "Accounting Department",
+          "deptAddress": "Banglore",
+          "id": 4
+        },
+        "1": {
+          "0": {
+            "0": {
+              "deptName": "Purchase Department",
+              "deptAddress": "Mumbai",
+              "id": 1
+            },
+            "1": {
+              "0": {
+                "deptName": "Purchase Department",
+                "deptAddress": "Mumbai",
+                "id": 1
+              },
+              "deptName": "Human Resources ",
+              "deptAddress": "Navi Mumbai",
+              "id": 2
+            },
+            "2": {
+              "0": {
+                "deptName": "Purchase Department",
+                "deptAddress": "Mumbai",
+                "id": 1
+              },
+              "1": {
+                "0": {
+                  "deptName": "Purchase Department",
+                  "deptAddress": "Mumbai",
+                  "id": 1
+                },
+                "deptName": "Human Resources ",
+                "deptAddress": "Navi Mumbai",
+                "id": 2
+              },
+              "deptName": "Information Technology",
+              "deptAddress": "Navi Mumbai",
+              "id": 3
+            },
+            "deptName": "Accounting Department",
+            "deptAddress": "Banglore",
+            "id": 4
+          },
+          "deptAddress": "Navi Mumbai",
+          "deptName": "Purchase Department",
+          "id": 5
+        },
+        "deptAddress": "Chennai",
+        "deptName": "Human Resources ",
+        "id": 6
+      },
+      "deptName": "Information Technology",
+      "deptAddress": "Mumbai",
+      "id": 7
     }
   ]
 }
