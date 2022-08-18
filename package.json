@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "concurrently \"next dev\" \"json-server --watch data/db.json --host 127.0.0.1 --port 3001\"",
-    "build": "next build",
+    "build": "concurrently \"next build\" \"json-server --watch data/db.json --host 127.0.0.1 --port 3001\"",
     "start": "next start",
     "lint": "next lint"
   },
