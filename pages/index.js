@@ -47,7 +47,7 @@ const LoginPage = () => {
       dispatch(setisLoggedIn(true));
       dispatch(setData({ employee_id: employee_id }));
       toast.success("logged in, redirecting to dashboard.");
-      router.push(`/add-employee/${employee_id}`);
+      router.push(`/employee/${employee_id}`);
     } else {
       toast.error("incorrect creadentials.");
       dispatch(hideLoading());

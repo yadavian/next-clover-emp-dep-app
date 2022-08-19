@@ -4,7 +4,7 @@
       "empName": "ankit dav",
       "empDesignation": "Software Engineer",
       "empSalary": "2000",
-      "deptName": "Accounting Department",
+      "deptName": "Purchase Department",
       "id": 1
     },
     {
@@ -375,7 +375,7 @@
         "id": 6
       },
       "deptName": "Information Technology",
-      "deptAddress": "Mumbai",
+      "deptAddress": "Chennai",
       "id": 7
     }
   ]

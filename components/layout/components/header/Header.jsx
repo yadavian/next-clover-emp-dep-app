@@ -42,10 +42,10 @@ const Header = () => {
     {
       id: 1,
       title: "Profile",
-      pathname: `/employee/add-employee/${data?.employee_id}`,
+      pathname: `/employee/${data?.employee_id}`,
       className: `${
         (location.pathname == "/employee" ||
-          location.pathname == `/employee/add-employee/${1}`) &&
+          location.pathname == `/employee/${1}`) &&
         "navbar-item-active"
       }`,
       userType: "employee",
